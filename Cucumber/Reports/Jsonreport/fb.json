@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-09T09:44:32.503Z",
+        "line": 3,
+        "name": "",
+        "description": "to validate login using valid email and invalid password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21361274700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to enter facebook login page",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6811248700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user have to click forgotten password",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_forgotten_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1060128600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to enter email",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356475800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to click search button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4405400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to be in invalid credentials page",
+            "match": {
+              "location": "StepDefinition.user_have_to_be_in_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": " To validate forgotten password functionality of facebook application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/ForgottenPw.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-09T09:45:02.254Z",
+        "line": 3,
+        "name": "",
+        "description": "to validate login using valid email and invalid password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6776747200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to eter fb login page",
+            "match": {
+              "location": "StepDefinition.user_have_to_eter_fb_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 714425200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User have to enter valid email and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_valid_email_and_invalid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265183200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to click login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2268800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to be in invalid credentials page",
+            "match": {
+              "location": "StepDefinition.user_have_to_be_in_invalid_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": " To validate login functionality of Facebook",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/Login.feature",
+    "tags": []
+  }
+]

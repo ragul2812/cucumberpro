@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="37.513625">
+<testcase classname="" name="_2" time="29.739285">
+<system-out><![CDATA[Given User have to enter facebook login page................................passed
+And user have to click forgotten password...................................passed
+When User have to enter email...............................................passed
+And User have to click search button........................................passed
+Then User have to be in invalid credentials page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="7.77434">
+<system-out><![CDATA[Given User have to eter fb login page.......................................passed
+When User have to enter valid email and invalid password....................passed
+And User have to click login button.........................................passed
+Then User have to be in invalid credentials page............................passed
+]]></system-out>
+</testcase>
+</testsuite>
